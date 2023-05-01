@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "movies"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+pandas = "^2.0.1"
+networkx = "^3.1"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+webweb = "^0.0.37"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
